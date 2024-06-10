@@ -1,6 +1,6 @@
 {
   "name": "mrnima-fbdl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This Package is Facebook video link's  Direct Link Fetcher, Created by Mr Nima - using javascript.",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,11 @@
     "facebook",
     "downlaoder",
     "scraper",
-    "nima"
+    "nima",
+    "fbdl",
+    "fdown",
+    "hddl",
+    "sdvideo"
   ],
   "author": "mrnima",
   "license": "ISC",

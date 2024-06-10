@@ -15,7 +15,7 @@ npm install mrnima-fbdl
 const { facebook } = require('mrnima-fbdl');
 
 async function main() {
-    const fbUrl = "https://www.facebook.com/share/v/Dk3JH9hRY7MU827F/?mibextid=jmPrMh";
+    const fbUrl = "https://www.facebook.com/shaabromusic/videos/981397083531887";
     const result = await facebook(fbUrl);
     console.log(result);
 }
@@ -30,11 +30,11 @@ main();
   creator: 'MR NIMA',
   status: true,
   result: {
-    thumbnail: 'https://scontent-fra5-1.xx.fbcdn.net/v/t15.5256-10/428720875_1097577967957274_1915043822291160297_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=dd673f&_nc_ohc=cXNTLva8QbUAX9U6vNF&_nc_ht=scontent-fra5-1.xx&oh=00_AfB2I4uQFSjmwtJufiFb0dNsQ5yue4eV2mfOLNqy7GkajQ&oe=65E78CC0',
-    duration: '0:18',
+    thumbnail: 'https://scontent-mrs2-1.xx.fbcdn.net/v/t15.5256-10/436317288_467854115732976_1926718699448321760_n.jpg?stp=dst-jpg_s640x640&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ifggXW-FHaYQ7kNvgFjjX5O&_nc_ht=scontent-mrs2-1.xx&edm=AGo2L-IEAAAA&oh=00_AYAvkeY7TUUnFqo_EF4O5XcRTjpyGRu5W5Jklh-rpUxv7A&oe=666C5F31',
+    duration: '0:46',
     links: {
-      HD: 'https://scontent-fra5-1.xx.fbcdn.net/o1/v/t2/f1/m69/GG5xoBlCeL1HLiQGAEIsSARfyLAWbmdjAAAF.mp4?efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_ht=scontent-fra5-1.xx.fbcdn.net&_nc_cat=100&strext=1&vs=6a8ba63a6a6b1086&_nc_vs=HBksFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HRzV4b0JsQ2VMMUhMaVFHQUVJc1NBUmZ5TEFXYm1kakFBQUYVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dHNXFuaG5hYTZWOXlOMENBSGdyYlJZNlM3QnNidjRHQUFBRhUCAsgBAEsHiBJwcm9ncmVzc2l2ZV9yZWNpcGUBMQ1zdWJzYW1wbGVfZnBzABB2bWFmX2VuYWJsZV9uc3ViACBtZWFzdXJlX29yaWdpbmFsX3Jlc29sdXRpb25fc3NpbQAoY29tcHV0ZV9zc2ltX29ubHlfYXRfb3JpZ2luYWxfcmVzb2x1dGlvbgAddXNlX2xhbmN6b3NfZm9yX3ZxbV91cHNjYWxpbmcAEWRpc2FibGVfcG9zdF9wdnFzABUAJQAcjBdAAAAAAAAAABERAAAAJvqqhu%2FPwsUBFQIoAkMzGAt2dHNfcHJldmlldxwXQDK7peNT988YIWRhc2hfZ2VuMmh3YmFzaWNfaHEyX2ZyYWdfMl92aWRlbxIAGBh2aWRlb3MudnRzLmNhbGxiYWNrLnByb2Q4ElZJREVPX1ZJRVdfUkVRVUVTVBsKiBVvZW1fdGFyZ2V0X2VuY29kZV90YWcGb2VwX2hkE29lbV9yZXF1ZXN0X3RpbWVfbXMBMAxvZW1fY2ZnX3J1bGUHdW5tdXRlZBNvZW1fcm9pX3JlYWNoX2NvdW50BDUyNTkRb2VtX2lzX2V4cGVyaW1lbnQADG9lbV92aWRlb19pZA84ODcyMzUwMzY1MzQ0NzQSb2VtX3ZpZGVvX2Fzc2V0X2lkDzM1MzUyODMzMDk5MDA3MhVvZW1fdmlkZW9fcmVzb3VyY2VfaWQPNDM0MzUyMTcyMzU0MjM3HG9lbV9zb3VyY2VfdmlkZW9fZW5jb2RpbmdfaWQPNzcyOTcwOTk0MzkwNTA0DnZ0c19yZXF1ZXN0X2lkACUCHAAlxAEbB4gBcwQxMTQwAmNkCjIwMjQtMDItMjcDcmNiBDUyMDADYXBwDUZhY2Vib29rIExpdGUCY3QZQ09OVEFJTkVEX1BPU1RfQVRUQUNITUVOVBNvcmlnaW5hbF9kdXJhdGlvbl9zCTE4LjgyOTk3NwJ0cxVwcm9ncmVzc2l2ZV9lbmNvZGluZ3MA&ccb=9-4&oh=00_AfCk1tRcz0W6jagCy7-Zns10D5-UJpwnPuuRNqTM5a4A1Q&oe=65E4CA33&_nc_sid=1d576d&_nc_rid=095084686025399&_nc_store_type=1&dl=1',
-      SD: 'https://scontent-fra3-2.xx.fbcdn.net/v/t42.1790-2/430123301_935274988316373_8584098772688619003_n.mp4?_nc_cat=111&ccb=1-7&_nc_sid=55d0d3&efg=eyJybHIiOjc1NiwicmxhIjo1MTIsInZlbmNvZGVfdGFnIjoic3ZlX3NkIn0%3D&_nc_ohc=JD7AgjwZPawAX_3qRF-&rl=756&vabr=420&_nc_ht=scontent-fra3-2.xx&oh=00_AfCDj_sd3BLjrXUNDivlcLbHnqVR0FbGwB_u4i9fNiV65w&oe=65E8C4EC&dl=1'
+      HD: 'https://video-mrs2-2.xx.fbcdn.net/o1/v/t2/f2/m69/An9TF19CTL9-8RiM7mRe-xBS9LT3BiSOH9s4s9nSGFsWBvelBUf-jDLKJGbOCDOQAb3h1koxJRCor17lE5Rf_vH1.mp4?efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&_nc_ht=video-mrs2-2.xx.fbcdn.net&_nc_cat=102&strext=1&vs=30d1d82caa02a3aa&_nc_vs=HBksFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HQzB5cnhvVWpjSFRaSTBCQUVURGdVMzJaN0JXYm1kakFBQUYVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dEYXBxeHJqaGJRUHN0QUNBQWFUV1J3Y3lNTV9ickZxQUFBRhUCAsgBAEsHiBJwcm9ncmVzc2l2ZV9yZWNpcGUBMQ1zdWJzYW1wbGVfZnBzABB2bWFmX2VuYWJsZV9uc3ViACBtZWFzdXJlX29yaWdpbmFsX3Jlc29sdXRpb25fc3NpbQAoY29tcHV0ZV9zc2ltX29ubHlfYXRfb3JpZ2luYWxfcmVzb2x1dGlvbgAddXNlX2xhbmN6b3NfZm9yX3ZxbV91cHNjYWxpbmcAEWRpc2FibGVfcG9zdF9wdnFzABUAJQAcjBdAAAAAAAAAABERAAAAJq6LhPyWkogBFQIoAkMzGAt2dHNfcHJldmlldxwXQEcZmZmZmZoYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHASABgYdmlkZW9zLnZ0cy5jYWxsYmFjay5wcm9kOBJWSURFT19WSUVXX1JFUVVFU1QbCogVb2VtX3RhcmdldF9lbmNvZGVfdGFnBm9lcF9oZBNvZW1fcmVxdWVzdF90aW1lX21zATAMb2VtX2NmZ19ydWxlB3VubXV0ZWQTb2VtX3JvaV9yZWFjaF9jb3VudAU4MjY0NRFvZW1faXNfZXhwZXJpbWVudAAMb2VtX3ZpZGVvX2lkDzk4MTM5NzA4MzUzMTg4NxJvZW1fdmlkZW9fYXNzZXRfaWQQMTE1MTAwNzcwOTU1OTYzMxVvZW1fdmlkZW9fcmVzb3VyY2VfaWQPMjk5Mzc5NDgzMjQ3MzE5HG9lbV9zb3VyY2VfdmlkZW9fZW5jb2RpbmdfaWQQMTE4OTk4NDcyODY3OTg4Nw52dHNfcmVxdWVzdF9pZAAlAhwAJcQBGweIAXMENTEwNgJjZAoyMDI0LTA2LTA0A3JjYgU4MjYwMANhcHAURmFjZWJvb2sgZm9yIEFuZHJvaWQCY3QZQ09OVEFJTkVEX1BPU1RfQVRUQUNITUVOVBNvcmlnaW5hbF9kdXJhdGlvbl9zCTQ2LjE2MTM2MQJ0cxVwcm9ncmVzc2l2ZV9lbmNvZGluZ3MA&ccb=9-4&oh=00_AYDbMbSJaeiqZEz_1oN5k7ijPm2KqbiNU_wBK-DwJXPBdw&oe=66686DF4&_nc_sid=1d576d&_nc_rid=681704398099753&_nc_store_type=1&dl=1',
+      SD: 'https://video-mrs2-1.xx.fbcdn.net/v/t42.1790-2/447898760_1691534961607389_3207386040058615770_n.mp4?_nc_cat=109&ccb=1-7&_nc_sid=55d0d3&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCIsInZpZGVvX2lkIjo5ODEzOTcwODM1MzE4ODd9&_nc_ohc=dIWROvYIYkwQ7kNvgF_8srw&_nc_ht=video-mrs2-1.xx&edm=AGo2L-IEAAAA&oh=00_AYAz3Slqyt7dxpqJ57dEsJrm6bgdy8VXa8xV1fo3c4cxxQ&oe=666C5D38&dl=1'
     }
   }
 }
